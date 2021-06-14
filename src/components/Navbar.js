@@ -47,7 +47,12 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/cv" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to="/eddyku.com/"
+                target="_blank"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
                 CV
               </Link>
             </li>
